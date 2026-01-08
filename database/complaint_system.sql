@@ -25,7 +25,7 @@ CREATE TABLE IF NOT EXISTS `users` (
 -- Insert admin user (password: admin123)
 INSERT INTO `users` (`username`, `password`, `first_name`, `last_name`, `email`, `phone`, `gender`, `role`, `status`)
 VALUES
-('admin', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 'System', 'Admin', 'admin@complaint.system', '1234567890', 'Male', 'admin', 'active');
+('admin', '$2y$10$cWY7G.ur42vPtOdq2EKpyufUugBBH0PCoU/mNQ92qaiOvv2nnhGoK', 'System', 'Admin', 'admin@complaint.system', '1234567890', 'Male', 'admin', 'active');
 
 -- --------------------------------------------------------
 -- Table structure for table `categories`
